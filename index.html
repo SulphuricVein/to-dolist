@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h2><img src="done.png" id="imaj" />To-Do List</h2>
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Add your task" />
+        <button onclick="addTask()">Add Task</button>
+      </div>
+
+      <ul id="list-container"></ul>
+    </div>
+    <script src="1.js"></script>
+  </body>
+</html>
